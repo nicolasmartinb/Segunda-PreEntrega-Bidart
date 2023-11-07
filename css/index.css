@@ -1,0 +1,420 @@
+:root {
+    --color-TextoFooter: #afebadf8;
+    --color-TextoExplicativo: #3c3fe7;
+    --color-fondo: #558a5a;
+    --color-Titulo: #0f1011;
+    --color-footer:rgb(19, 22, 22);
+    --color-header:rgb(35, 119, 175);
+    --color-texto:rgb(19, 20, 20);
+    
+
+}
+
+
+/*Fuentes
+font-family: 'Comic Neue', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Young Serif', serif;
+*/
+
+
+
+
+
+/* titulos */
+
+.titulos-interiores{
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(87, 133, 19);
+    font-family: 'Comic Neue', cursive;
+    font-size: 30px;
+    color: beige;
+}
+
+.titulo-tinda{
+
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(162, 201, 104);
+    font-family: 'Comic Neue', cursive;
+    font-size: 30px;
+    color: beige;
+}
+
+.titulo-exteriores{
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(162, 201, 104);
+    font-family: 'Comic Neue', cursive;
+    font-size: 30px;
+    color: beige;
+
+}
+.titulos-interiores{
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(87, 133, 19);
+    font-family: 'Comic Neue', cursive;
+    font-size: 30px;
+    color: beige;
+}
+.titulos-interiores-contacto{
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(124, 151, 83);
+    font-family: 'Comic Neue', cursive;
+    font-size: 30px;
+    color: beige;
+    padding: 25px;
+}
+.titulo-planta{
+    color: white;
+    background-color: var(--color-fondo);
+    text-align: center;
+    padding: 1rem;
+}
+.titulo-ficus {
+    color: #3d9933; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+
+
+
+
+*{
+	border:0;
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+body{
+    background-color: var(--color-fondo);
+}
+.header{
+    background-color: var(--color-fondo);
+    font-size: 20px;
+    text-decoration: none;
+    color: beige;
+    
+
+}
+/*Boton*/
+.mi-btn{
+    border-radius: 25px;
+    color: white;
+}
+
+.btn{
+    color: rgb(51, 43, 43);
+    text-decoration: none;
+    
+
+}
+.btn {
+    background-color: #3d9933;
+
+
+
+}
+.btn-tienda{
+    border-radius: 10px; 
+    outline: none; 
+    
+    background-color: #34db7f;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.boton-tienda:hover {
+    border-radius: 5px; 
+    background-color: #3c3fe7;
+    
+}
+/*textos*/
+
+.textos-tienda{
+
+    font-size: 25px;
+    background-color: rgb(162, 201, 104);
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+.textos-exteriores{
+    font-size: 25px;
+    background-color: rgb(162, 201, 104);
+    font-family: 'Quicksand', sans-serif;
+
+
+}
+.textos-interiores{
+    font-size: 25px;
+    background-color: rgb(180, 201, 149);
+    font-family: 'Quicksand', sans-serif;
+
+}
+.textos-generico{
+    color: white;
+}
+.txt-inicio{
+    color: var(--color-Titulo);
+    text-align: center;
+    font-size: 60px;
+    background-color: greenyellow;
+    padding: 40px;
+
+}
+
+.Texto-contacto{
+    color: aliceblue;
+    background-color: #558a5a;
+    font-family: 'Young Serif', serif;
+    text-align: center;
+    padding: 25px;
+
+}
+.txt-contacto{
+    color: green;
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    
+ }
+ .textos{
+    font-size: 40px ;
+ }
+
+/*Propiedades Nav-var*/
+.fondo-navint{
+    background-color: #558a5a;
+}
+.navbar navbar-expand-lg bg-light{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 0.5cm;
+    padding: 16px;
+    background-color: #558a5a;
+
+
+}
+.Barra-nav li {
+    margin-right: 0.5cm; 
+}
+
+.Barra-nav a:visited {
+    color: aliceblue;
+    text-decoration: none;
+}
+.barra-nav{
+    padding-left: 35%;
+}
+
+/*Propiedades de imagenes*/
+
+.media-foto-index{
+    height: 300px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.media-foto-interiores{
+    margin: 10px; 
+    box-sizing: border-box;
+    min-height: auto;
+}
+
+.fondo-pantalla{
+    background-image: url(https://es.123rf.com/photo_156129580_flores-decorativas-y-plantas-en-el-jard%C3%ADn-dise%C3%B1o-de-exteriores-fondo-natural-natural-enfoque.html);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.fondo-pantalla-interiores{
+    background-image: url(../img/interirosimo.avif);
+    
+}
+
+
+.contact-fond{
+    background-image: url(../img/variedadplantasfondo.avif);
+     background-size: 100% auto
+ 
+  
+    
+}
+
+.fondo-tienda{
+    background-image: url(../img/fondo-tienda2.avif);
+}
+.media-foto-exteriores{
+    
+    
+    margin: 10px; 
+    box-sizing: border-box;
+    min-height: auto;
+  
+}
+.Inicio-image {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.fondo-pantalla{
+   background-image:url(../img/fondo-plantas-ext.jpg)
+}
+.mi-carrusel img{
+    display: block;
+    margin: 0 auto;
+ }
+ .mi-carrusel{
+    position: relative;
+    float: right;
+    margin-right: auto;
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out;
+ }
+
+
+
+.caja-padre{
+    display: flex;
+    align-items: start;
+}
+
+.caja-padre-tienda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ficha-tecnica{
+    font-size: 18px;
+    max-width: 80%; 
+    margin: 10px;
+    box-sizing: border-box;
+    color: rgb(238, 237, 235);
+    background-color: olive;
+    font-family: 'Comic Neue', cursive;
+}
+
+
+
+/*Media-video*/
+
+.video-inicio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenido-video h1{
+    position: relative;
+    z-index: 1;
+    color: white;
+    justify-content: center;
+    text-align: center;
+font-size: 8em;
+color: #03e233ee;
+text-shadow: rgb(23, 7, 7) 2px 5px;
+font-family: 'Comic Neue', cursive;
+}
+.contenido-video h2{
+    position: relative;
+    z-index: 1;
+    color: white; 
+    justify-content: center;
+    text-align: center;
+    font-size: 3em;
+    color: #03e233ee;
+    font-family: 'Comic Neue', cursive;
+    text-shadow: rgb(23, 7, 7) 1px 4px;
+}
+
+.contenido-video input[type="search"] {
+    width: 100%; 
+    padding: o.5;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.contenido-video button {
+    margin-left: 1em; 
+}
+
+/*Propiedades-footer*/
+.arriba-footer {
+    background-color: #558a5a;
+
+font-size: 50px;
+font-family: 'Comic Neue', cursive;
+display: flex;
+justify-content: center; 
+align-items: center; 
+text-align: center; 
+
+}
+ .arriba-footer2{
+    font-family: 'Comic Neue', cursive;
+}
+
+
+.slogan{
+
+    font-size: 50px;
+}
+
+
+ .formulario-de-contacto{
+    color: black;
+    background-color: var(--color-TextoFooter);
+    padding: 35px;
+    text-align: center;
+    font-size: 30px;
+    background-image: url(../img/fondcon.jpg);
+
+ }
+
+ .config-tienda{
+    padding: 30px;
+    border: 2rem;
+    background-image: url(../img/fondo-tienda2.avif);
+ }
+
+ 
+
+ .footer{
+    font-size: 20px;
+    text-align: right;
+    padding: 5px;
+    display: flex;
+    list-style: none;
+    background-color: var(--color-fondo);
+ }
+
+ .footer li{
+    margin-right: 0.5cm;
+
+ }
+.Copyright{
+    color: white;
+    padding:0.5%;
+}
+
+ /* Estilos para los paneles de información */
+.accordion-body {
+    background-color: rgb(162, 201, 104);
+    box-shadow: 0 4px 8px 0 rgba(192, 16, 16, 0.2); 
+    padding: 15px; 
+}
